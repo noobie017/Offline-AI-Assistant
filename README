@@ -1,1 +1,44 @@
+# Ollama Uncensored Offline Pentesting Assistant
 
+A fully **offline, uncensored** version of Ollama fine-tuned and system-prompted specifically for **penetration testing** and red team operations.
+
+This project provides a local, private AI assistant that helps with pentesting tasks without sending any data to the cloud, without content filters, and without rate limits.
+
+### Why I Built This
+While working on my home lab (Kali Linux, Windows agents, RDP brute-force testing, SOC detection lab with ELK + Mythic C2, etc.), I needed a reliable AI helper that could:
+- Assist with command generation
+- Explain techniques and vulnerabilities
+- Help craft payloads and scripts
+- Suggest enumeration steps
+- Analyze logs or errors
+- Brainstorm attack paths
+
+...all while staying completely **air-gapped** and **uncensored**.
+
+### Features
+- **100% Offline** — Runs entirely on your local machine
+- **Uncensored** — No safety refusals on security-related topics
+- Customized system prompts optimized for pentesting, red teaming, and offensive security
+- Easy one-click setup (Ollama + Modelfile)
+- Supports popular models (llama3, mistral, phi3, gemma2, etc.)
+- Tailored for real-world use cases: reconnaissance, exploitation, post-exploitation, evasion, reporting, etc.
+
+### Tech Stack
+- Ollama
+- Custom Modelfile with specialized system instructions
+- Optional: Open WebUI for a clean ChatGPT-like interface
+
+### Use Cases
+- Generating reverse shells and payloads
+- Helping with Crowbar/Hydra/Metasploit usage
+- Explaining Windows/Linux privilege escalation
+- Creating detection evasion techniques
+- Brainstorming lateral movement and C2 setups (like Mythic C2)
+- Writing custom scripts and tools
+- Reviewing scan results or logs
+
+**Important Note**: This tool is intended strictly for authorized penetration testing, red team exercises, and educational purposes in controlled lab environments.
+
+---
+
+Built as a personal pentesting companion for current and future project
